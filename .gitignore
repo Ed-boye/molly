@@ -1,0 +1,14 @@
+
+# Local node files
+node_modules/
+
+# Config files including the token that is never to be checked in
+_dev.json
+_prod.json
+config.json
+
+# Zipped files typically used to upload to hosting server
+*.zip
+
+# VS Code files
+.vscode/

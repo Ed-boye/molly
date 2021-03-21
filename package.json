@@ -1,0 +1,15 @@
+{
+  "name": "molly",
+  "version": "0.1.0",
+  "description": "",
+  "main": "molly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ed-boye",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "eslint": "^7.22.0"
+  }
+}

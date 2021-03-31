@@ -1,0 +1,37 @@
+{
+    "guildId": "694695651614785557",
+    "errorChannelId": "762509624976867338",
+    "roleChannelId": "825948448884523029",
+    "roleMessagesMaps": {
+        "826651345355538433": {
+            "723795833878740992": "Valorant",
+            "826645999396585472": "Rogue Company",
+            "826646581045493760": "Dead By Daylight",
+            "826637815240458261": "Animal Crossing",
+            "734125119638601809": "Minecraft",
+            "826639580971008041": "Valheim",
+            "734125077846818869": "League",
+            "826650867868237874": "HoTS",
+            "723795847367753768": "Overwatch",
+            "826647526786596895": "R6: Siege",
+            "753293994674618450": "Pokémon",
+            "734125175230038036": "Jackbox",
+            "826649285646745680": "Risk of Rain 2"
+        },
+        "826652884774027326": {
+            "🎥": "Watch Party",
+            "⚫": "The Void",
+            "🤓": "Geek Squad",
+            "🔔": "Announcements"
+        },
+        "826653568047382588": {
+            "1️⃣": "Bella's Mindful Buttress",
+            "2️⃣": "Jules' Pet Fox",
+            "3️⃣": "Shay's Banana Fish",
+            "4️⃣": "Jay's Electric Jockstrap",
+            "5️⃣": "Ed's Tinkle Turquoise",
+            "6️⃣": "Tim's Pony Leather",
+            "7️⃣": "Odd's Dragon Pussy Pink"
+        }
+    }
+}

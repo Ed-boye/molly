@@ -40,9 +40,8 @@ client.once('ready', async () => {
             // Set role if not undefined, otherwise throw an error
             // TODO: Sending error messages should go in a helper method
             roleConfig.roleMessagesMaps[messageId][emoji] = discordRole
-                ? discordRole
-                : guild.channels.cache.find(chan => chan.id === roleConfig.errorChannelId)
-                    .send(`I tried to load this role that doesn't exist: ${role}`)
+                ? discordRole : guild.channels.cache.find(chan => chan.id === roleConfig.errorChannelId)
+                    .send(`I tried to load this role that doesn't exist, name: ${role}`)
                     .catch((error) => {
                         console.error(`Couldn't send message in Discord about roles not being loaded. Error: "${error}"`);
                     });
@@ -55,7 +54,7 @@ client.once('ready', async () => {
                 .catch((error) => {
                     console.error(`Unable to add the "${emoji}". Error: "${error}"`);
                     guild.channels.cache.find(chan => chan.id === roleConfig.errorChannelId)
-                        .send(`I tried to react with an emoji not on the server: ${emoji}`)
+                        .send(`I tried to react with an emoji not on the server, ID: ${emoji}`)
                         .catch((error2) => {
                             console.error(`Couldn't send message in Discord about emoji not being added. Error: "${error2}"`);
                         });
